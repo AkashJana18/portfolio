@@ -11,10 +11,14 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.21",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.4.0"
+    "react-icons": "^5.2.1",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
