@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
       <div>
-        <Spotlight className=" h-screen" fill="white" />
-        <Spotlight className=" left-full h-[80vh]" fill="purple" />
+        <Spotlight className=" h-screen" fill="grey" />
+        <Spotlight className=" left-full h-[80vh]" fill="violet" />
         <Spotlight className=" left-80 h-[80vh] w-[50vw]" fill="#87CEEB" />
       </div>
       {/* background grid */}
