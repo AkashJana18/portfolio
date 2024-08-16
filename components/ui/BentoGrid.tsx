@@ -147,7 +147,7 @@ export const BentoGridItem = ({
                   particleColor="#FFFFFF"
                 />
                 <a
-                  href="https://drive.google.com/file/d/11XzZmnaMvF6sicuRtPt37QakCKqBx78-/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1bvosqZrJOfdHsYAC8Se59OuNEK7ACIaK/view?usp=sharing"
                   target="_blank"
                 >
                   <LitupButton name="View Resume" />
