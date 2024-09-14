@@ -147,10 +147,12 @@ export const BentoGridItem = ({
                   particleColor="#FFFFFF"
                 />
                 <a
-                  href="https://drive.google.com/file/d/1bvosqZrJOfdHsYAC8Se59OuNEK7ACIaK/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Ps1YyuuDYg5oBlKIUPhwvKLSdjCgMmP-/view?usp=sharing"
                   target="_blank"
                 >
-                  <LitupButton name="View Resume" />
+                  <div className="z-10">
+                    <LitupButton name="View Resume" />
+                  </div>
                 </a>
               </>
             )}
