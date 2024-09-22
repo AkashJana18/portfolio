@@ -8,26 +8,37 @@ import { TypewriterEffect } from "./ui/TypewriterEffect";
 const Hero = () => {
   const words = [
     {
-      text: "Transforming",
+      text: "I",
     },
     {
-      text: "Concepts",
+      text: "Build",
     },
     {
-      text: "into",
+      text: "High-performance",
     },
     {
-      text: "Seamless",
+      text: "Web",
     },
     {
-      text: "User",
+      text: "Applications",
+    },
+    {
+      text: "with",
+    },
+    {
+      text: "React",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Experiences",
-      className: "text-purple dark:text-purple",
+      text: "&",
     },
+    {
+      text: "Next.js",
+      className: "text-purple dark:text-purple",
+    }
+
   ];
+  
   return (
     <div id="home" className="pb-20 pt-36">
       <div>
@@ -56,7 +67,7 @@ const Hero = () => {
             Hi, I&apos;m Akash, a Next.js developer from India.
           </p>
 
-          <a href="#projects">
+          <a href="#Projects" className="cursor-pointer">
             <MagicButton 
             title="Show my work"
             icon={<FaLocationArrow />}
