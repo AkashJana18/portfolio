@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <>
       <h1 className="heading mt-20">Skills & <span className="text-purple">Technologies</span></h1>
-      <table className="flex justify-center items-center m-10 rounded-2xl table-auto border-separate border-spacing-6 border border-slate-500">
+      <table className="flex justify-center items-center m-10 rounded-2xl table-auto border-separate border-spacing-6 border border-slate-100">
         <tbody>
           <tr>
             <td>
