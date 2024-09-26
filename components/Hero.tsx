@@ -78,7 +78,7 @@ const Hero = () => {
             Hi, I&apos;m Akash, a Next.js developer from India.
           </p>
 
-          <a href="#Projects" className="cursor-pointer">
+          <a href="#projects" className="cursor-pointer">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
