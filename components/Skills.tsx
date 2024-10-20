@@ -20,6 +20,9 @@ const slugs = [
   "github",
   "visualstudiocode",
   "figma",
+  "mongodb",
+  "python",
+  
 ];
 
 function Skills() {
