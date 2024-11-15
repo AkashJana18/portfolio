@@ -93,7 +93,7 @@ export const navItems = [
       des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
       img: "/copilotmate.png",
       iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://www.youtube.com/watch?v=qPVRPUH8ewU&t=8s&ab_channel=Akash",
+      link: "https://youtu.be/qPVRPUH8ewU?si=PmCxfpnI30lgJRd0",
     },
     {
       id: 4,
