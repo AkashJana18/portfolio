@@ -72,7 +72,7 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
+      id: 2,
       title: "Mystery Message",
       des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
       img: "/p1.png",
@@ -80,7 +80,7 @@ export const navItems = [
       link: "github.com/AkashJana18/nextjs-project",
     },
     {
-      id: 2,
+      id: 3,
       title: "Cryptack - Cryptocurrency tracker",
       des: "Compare different cryptocurrencies, view their graphs—prices, total volumes, market cap, etc.",
       img: "/p2.png",
@@ -88,12 +88,12 @@ export const navItems = [
       link: "cryptack.netlify.app/",
     },
     {
-      id: 3,
-      title: "Homyz - Real Estate Website",
-      des: "Intuitive user interface to browse and search for real estate listings. Displayed property details, images, and filtering options",
-      img: "/p3.svg",
-      iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/mui.svg"],
-      link: "homyz-aj.pages.dev/",
+      id: 1,
+      title: "CopilotMate",
+      des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
+      img: "/copilotmate.png",
+      iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
+      link: "https://www.youtube.com/watch?v=qPVRPUH8ewU&t=8s&ab_channel=Akash",
     },
     {
       id: 4,
