@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Resume", link: "https://drive.google.com/file/d/1Ps1YyuuDYg5oBlKIUPhwvKLSdjCgMmP-/view?usp=sharing" },
+    { name: "Resume", link: "https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing" },
     { name: "Projects", link: "#projects" },
     //{ name: "Testimonials", link: "#testimonials" },
     { name: "Blogs", link: "https://dev.to/akashjana"},
@@ -72,6 +72,14 @@ export const navItems = [
   ];
   
   export const projects = [
+        {
+      id: 1,
+      title: "CopilotMate",
+      des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
+      img: "/copilotmate.png",
+      iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
+      link: "https://youtu.be/qPVRPUH8ewU?si=PmCxfpnI30lgJRd0",
+    },
     {
       id: 2,
       title: "Mystery Message",
@@ -88,14 +96,7 @@ export const navItems = [
       iconLists: ["/re.svg", "/css.svg", "/js.svg", "/chartjs.svg", "/fm.svg", "/mui.svg"],
       link: "cryptack.netlify.app/",
     },
-    {
-      id: 1,
-      title: "CopilotMate",
-      des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
-      img: "/copilotmate.png",
-      iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://youtu.be/qPVRPUH8ewU?si=PmCxfpnI30lgJRd0",
-    },
+  
     {
       id: 4,
       title: "React Quiz with Timer",
