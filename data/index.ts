@@ -3,6 +3,7 @@ export const navItems = [
     { name: "Resume", link: "https://drive.google.com/file/d/1Ps1YyuuDYg5oBlKIUPhwvKLSdjCgMmP-/view?usp=sharing" },
     { name: "Projects", link: "#projects" },
     //{ name: "Testimonials", link: "#testimonials" },
+    { name: "Blogs", link: "https://dev.to/akashjana"},
     { name: "Contact", link: "#contact" },
   ];
   
@@ -174,15 +175,15 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Academic Project",
-      desc: "Developed a responsive web application as part of a class project, utilizing HTML, CSS, and JavaScript.",
+      title: "Pretember Challenge",
+      desc: "Developed CopilotMate, personal AI assistant which integrates tools like a to-do list, ai-enabled spreadsheet, expense tracker and other features.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Internship - Frontend",
-      desc: "Assisted in creating user interfaces and components for a web application using React.js.",
+      title: "Open Source",
+      desc: "Developed a JSON Field Renaming Component in Golang for Instill AI, implementing logic for renaming fields with conflict resolution. Additionally, created comprehensive unit tests to ensure its functionality and robustness",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
