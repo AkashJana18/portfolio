@@ -19,20 +19,26 @@ const slugs = [
   "git",
   "github",
   "visualstudiocode",
-  "figma",
   "mongodb",
   "python",
-  
+  "framer",
+  "ai",
+  "tailwindcss",
+  "numpy",
 ];
 
 function Skills() {
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
+  );
   return (
-    <div className="my-10 py-10">
+    <div className="my-10 py-10 ">
       <h1 className="heading">
-        Skills &amp;{" "}
-        <span className="text-purple">Technologies</span>
+        Skills &amp; <span className="text-purple">Technologies</span>
       </h1>
-      <IconCloud iconSlugs={slugs} />
+      <div className="flex justify-center align-middle">
+        <IconCloud images={images} />
+      </div>
     </div>
   );
 }
