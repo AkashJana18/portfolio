@@ -62,12 +62,12 @@ const Hero = () => {
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Akash, a Web Developer, Open Source and AI Enthusiast.
+            Hi, I&apos;m Akash, a proficient Web Developer and AI Enthusiast.
           </p>
 
-          <a href="#projects" className="cursor-pointer">
+          <a href="https://contra.com/akash_jana" target="_blank" className="cursor-pointer">
             <MagicButton
-              title="Show my work"
+              title="Hire me on Contra"
               icon={<FaLocationArrow />}
               position="right"
             />

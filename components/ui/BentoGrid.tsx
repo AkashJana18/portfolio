@@ -7,13 +7,12 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
+import animationData from "@/data/confetti.json";
 import { BackgroundGradientAnimation } from "./Gradientbg";
 import GridGlobe from "./GridGlobe";
-import animationData from "@/data/confetti.json";
+import LitupButton from "./LitupButton";
 import MagicButton from "./MagicButton";
 import { SparklesCore } from "./Sparkles";
-import LitupButton from "./LitupButton";
-
 
 export const BentoGrid = ({
   className,
@@ -151,14 +150,21 @@ export const BentoGridItem = ({
                   className="w-full h-full"
                   particleColor="#FFFFFF"
                 />
-                <a
-                  href="https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing"
-                  target="_blank"
-                >
-                  <div className="z-10">
-                    <LitupButton name="View Resume" />
-                  </div>
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    href="https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <div className="z-10">
+                      <LitupButton name="View Resume" />
+                    </div>
+                  </a>
+                  <a href="https://contra.com/akash_jana" target="_blank">
+                    <div className="z-10">
+                      <LitupButton name="Freelance" />
+                    </div>
+                  </a>
+                </div>
               </>
             )}
             {id === 6 && (

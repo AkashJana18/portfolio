@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Resume", link: "https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing" },
+    // { name: "Resume", link: "https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing" },
     { name: "Projects", link: "#projects" },
     //{ name: "Testimonials", link: "#testimonials" },
     { name: "Blogs", link: "https://dev.to/akashjana"},
@@ -30,7 +30,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My Resume",
+      title: "Hire me",
       description: "Are you hiring? Check out ",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 flex",
       imgClassName: "",
@@ -82,11 +82,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mystery Message",
-      des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
-      img: "/p1.png",
-      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
-      link: "github.com/AkashJana18/nextjs-project",
+      title: "Statify - Landing page",
+      des: "A modern and minimal lading page with excellent UI/UX.",
+      img: "/statify.png",
+      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://statify-delta-mauve.vercel.app/",
     },
     {
       id: 3,
@@ -99,11 +99,11 @@ export const navItems = [
   
     {
       id: 4,
-      title: "React Quiz with Timer",
-      des: "React Quiz with Timer and Score is a React-based quiz app that tracks scores and time in real-time.",
-      img: "/p4.png",
-      iconLists: ["/re.svg",  "/css.svg", "/js.svg"],
-      link: "react-quiz-with-timer.netlify.app/",
+      title: "Mystery Message",
+      des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
+      img: "/p1.png",
+      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
+      link: "github.com/AkashJana18/nextjs-project",
     },
   ];
   
