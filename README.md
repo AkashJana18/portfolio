@@ -4,6 +4,8 @@
 ![image](https://github.com/user-attachments/assets/0fe6c374-6984-4409-b788-9ecc47b6f16c)
 ![image](https://github.com/user-attachments/assets/31c9b1d1-e7ca-4aee-a99a-2b6ede8824a7)
 
+## Live Link: [Portfolio](https://akashjana.vercel.app)
+
 # 📋 Table of Contents
 1. 🤖 Introduction
 2. ⚙️ Tech Stack
